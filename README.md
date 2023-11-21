@@ -9,6 +9,8 @@ Alternatively, the script `binnerOptionalUseMain.m` can be used instead of the l
 
 The script will ask you to select the .dat file containing the particle information from the STB algorithm. Beware that reading a big STB file can take a while, and for this reason, the Matlab workspace is saved after reading the .dat file. After the first try it is possible to simply select the Matlab workspace, and the code will work with the new parameters that are set in the livescript. 
 
+The resulting binning will be saved in a Tecplot binary file in the selected project folder. For each phase, a separate file will be saved. 
+
 Don't hesitate to ask for questions if something is not correctly working. 
 
 
