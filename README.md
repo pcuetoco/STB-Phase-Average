@@ -3,13 +3,15 @@ Matlab code to generate phase average and time-averaged binning based on STB.dat
 
 ## Usage
 
-Download the all the files from the repository. The folder (~/ptv-binning-codes/Binning/) contains all the essential classes, functions and script for the ensemble averaging of your PTV data. In such folder, the script `phaseAverageBinnerMain.mlx` provides a script that you only need to fill in the parameters required for the binning and hit the run button. After running the program the interface will guide you through the steps for the binning. Beware to check the binning parameters before running the script. 
+Download the all the files from the repository. The folder (~/STB-Phase-Average/Binning/) contains all the essential classes, functions and script for the ensemble averaging of your PTV data. In such folder, the script `phaseAverageBinnerMain.mlx` provides a script that you only need to fill in the parameters required for the binning and hit the run button. After running the program the interface will guide you through the steps for the binning. Beware to check the binning parameters before running the script. 
 
-Alternatively, the script `binnerOptionalUseMain.m` can be used instead of the live script if preferred. It is recommended to use the livescript no to miss any required parameters, but the normal script is placed in case of need. 
+Alternatively, the script `binnerOptionalUseMain.m` can be used instead of the live script if preferred. It is recommended to use the livescript not to miss any required parameters, but the normal script is placed in case of need. 
 
 The script will ask you to select the .dat file containing the particle information from the STB algorithm. Beware that reading a big STB file can take a while, and for this reason, the Matlab workspace is saved after reading the .dat file. After the first try it is possible to simply select the Matlab workspace, and the code will work with the new parameters that are set in the livescript. 
 
 The resulting binning will be saved in a Tecplot binary file in the selected project folder. For each phase, a separate file will be saved. 
+
+The folder  (~/STB-Phase-Average/Test/) contains a .dat file with some STB results and a .mat file with an already read data to test the binning. The period length of the motion is 1/(175.781/2) s. Make sure to use this value if the test data is binned. 
 
 Don't hesitate to ask for questions if something is not correctly working. 
 
