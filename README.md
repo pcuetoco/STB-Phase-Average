@@ -11,7 +11,6 @@ The script will ask you to select the .dat file containing the particle informat
 
 The resulting binning will be saved in a Tecplot binary file in the selected project folder. For each phase, a separate file will be saved. 
 
-The folder  (~/STB-Phase-Average/Test/) contains a .dat file with some STB results and a .mat file with an already read data to test the binning. The period length of the motion is 1/(175.781/2) s. Make sure to use this value if the test data is binned. 
 
 Don't hesitate to ask for questions if something is not correctly working. 
 
